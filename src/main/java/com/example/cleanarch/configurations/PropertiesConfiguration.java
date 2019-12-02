@@ -13,6 +13,7 @@ public class PropertiesConfiguration {
 
 	private String environment;
 	private DatabaseProperties datasource;
+	private String filepath;
 
 	public void setEnvironment(String environment) {
 		this.environment = environment;
@@ -28,6 +29,14 @@ public class PropertiesConfiguration {
 	
 	public DatabaseProperties getDatasource() {
 		return datasource;
+	}
+
+	public String getFilepath() {
+		return filepath;
+	}
+
+	public void setFilepath(String filepath) {
+		this.filepath = filepath;
 	}
 	
 }
